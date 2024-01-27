@@ -75,29 +75,27 @@ footer {
     font-family: "montserrat", sans-serif;
 }
 
-/* section1*/
 .hero {
     width: 100%;
     height: 100vh;
     background-image: url(./img/rm.png.JPG);
     background-size: cover;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;               
+    align-items: center;
     justify-content: center;
-    color:white;
+    color: white;
     font-family: 'Titan One', sans-serif;
 }
 
 .hero h2 {
     flex-direction: column;
     padding: 0;
- 
 }
 
 .hero h2 span:nth-of-type(1) {
-    font-size: .5em;
+    font-size: 0.5em;
     align-self: flex-start;
 }
 
@@ -108,28 +106,42 @@ footer {
 }
 
 .hero h2 span:nth-of-type(3) {
-    font-size: .5em;
+    font-size: 0.5em;
     align-self: flex-end;
 }
 
 .hero h2:nth-of-type(1) {
     color: white;
     display: flex;
-    align-items: center;               
+    align-items: center;
     justify-content: center;
     font-size: 75px;
     margin: 0%;
 }
 
-/* section2*/
 .section2 {
     font-family: "montserrat", sans-serif;
     display: flex;
     justify-content: center;
     background-color: #3E402D;
     font-size: 25px;
-
 }
+
+@media screen and (max-width: 768px) {
+    .hero h2 span:nth-of-type(1),
+    .hero h2 span:nth-of-type(3) {
+        font-size: 0.4em;
+    }
+
+    .hero h2 span:nth-of-type(2) {
+        font-size: 1.8em;
+    }
+
+    .hero h2:nth-of-type(1) {
+        font-size: 50px;
+    }
+}
+
 
 .info {
     background-color:#F5E6C5;
@@ -162,7 +174,6 @@ footer {
 .video video {
     width: 75%;
     margin: 25px;
-
 }
 
 /* foto's*/
