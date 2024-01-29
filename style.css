@@ -61,10 +61,6 @@ header {
     padding: 0px 20px;
 }
 
-.nav_links li a {
-    transition: all 0,3s ease 0s;
-}
-
 .nav_links li a:hover {
     color: #D78B30;
 }
@@ -309,15 +305,7 @@ footer {
     background-color: brown;
 }
 
-.card:hover {
-    background-color: #D78B30;
-    color: #F5E6C5;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
-}
-
-.card2:hover {
+.card:hover, .card2:hover {
     background-color: #D78B30;
     color: #F5E6C5;
     cursor: pointer;
@@ -367,7 +355,6 @@ footer {
 
 .card4 img {
     width: 100%;
-    background-image: bottom;
     border-radius: 250px;
 }
 
@@ -410,7 +397,7 @@ footer {
     flex-wrap: wrap;
 }
 
-.haha {
+.driefoto {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
